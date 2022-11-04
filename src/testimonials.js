@@ -8,7 +8,7 @@ window.data = function() {
                     "  I couldn’t recommend this course enough. I’m now in the job of my dreams and so \n" +
                     "  excited about the future.",
                 name: "Tanya Sinclair",
-                job: "X Engineer",
+                job: "UX Engineer",
             },
             {
                 active: false,
