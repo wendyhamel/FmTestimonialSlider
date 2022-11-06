@@ -44,6 +44,12 @@ window.data = function() {
             } else {
                 this.testimonials[this.testimonials.indexOf(this.activeSlide[0]) + 1].active = true;
             }
+        },
+
+        animation: false,
+        animate() {
+            this.animation = true;
+            setTimeout(function() {this.animation = false}.bind(this) ,800);
         }
     }
 }
